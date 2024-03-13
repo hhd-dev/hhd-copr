@@ -1,9 +1,9 @@
 Name:           hhd
-Version:        1.3.14
+Version:        2.0.0
 Release:        1%{?dist}
 Summary:        Handheld Daemon, a tool for configuring handheld devices.
 
-License:        MIT
+License:        GPL-3.0-or-later AND MIT
 URL:            https://github.com/hhd-dev/hhd
 Source:        	https://pypi.python.org/packages/source/h/%{name}/%{name}-%{version}.tar.gz   
 
@@ -20,6 +20,8 @@ Requires:       python3-evdev
 Requires:       python3-rich
 Requires:       python3-yaml
 Requires:       python3-setuptools
+Requires:       python3-xlib
+Requires:       libusb1
 
 %description
 Handheld Daemon is a project that aims to provide utilities for managing handheld devices. With features ranging from TDP controls, to controller remappings, and gamescope session management. This will be done through a plugin system and an HTTP(/d-bus?) daemon, which will expose the settings of the plugins in a UI agnostic way.
