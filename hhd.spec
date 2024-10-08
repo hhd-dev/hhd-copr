@@ -1,5 +1,5 @@
 Name:           hhd
-Version:        3.4.1
+Version:        3.5.0
 Release:        1%{?dist}
 Summary:        Handheld Daemon, a tool for configuring handheld devices.
 
@@ -21,6 +21,7 @@ Requires:       python3-rich
 Requires:       python3-yaml
 Requires:       python3-setuptools
 Requires:       python3-xlib
+Requires:       python3-pyserial
 Requires:       libusb1
 Requires:       hidapi
 
