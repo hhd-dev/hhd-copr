@@ -1,6 +1,6 @@
 Name:           hhd
-Version:        3.19.0
-Release:        2%{?dist}
+Version:        3.19.1
+Release:        1%{?dist}
 Summary:        Handheld Daemon, a tool for configuring handheld devices.
 
 License:        GPL-3.0-or-later AND MIT
