@@ -1,6 +1,6 @@
 Name:           hhd
 Version:        3.19.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Handheld Daemon, a tool for configuring handheld devices.
 
 License:        GPL-3.0-or-later AND MIT
@@ -52,3 +52,4 @@ install -m644 usr/lib/systemd/system/%{name}.service %{buildroot}%{_unitdir}/%{n
 %{_udevrulesdir}/83-%{name}.rules
 %{_sysconfdir}/udev/hwdb.d/83-%{name}.hwdb
 %{_unitdir}/%{name}@.service
+%{_unitdir}/%{name}.service
